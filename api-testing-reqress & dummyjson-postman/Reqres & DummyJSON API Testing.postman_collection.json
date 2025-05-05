@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "4782a3ed-7f9c-4126-8969-5754589521ec",
+		"name": "Reqres & DummyJSON API Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44299461",
+		"_collection_link": "https://irfanaz-zahran.postman.co/workspace/Irfan-Az-Zahran's-Workspace~634897ab-12b9-48d8-8fca-996170aa2964/collection/44299461-4782a3ed-7f9c-4126-8969-5754589521ec?action=share&source=collection_link&creator=44299461"
+	},
+	"item": [
+		{
+			"name": "List User",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Registration (success)",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Registration Failed (no password)",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New User (dummyJSON)",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Update User (dummyJSON)",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Update user (dummyJSON)",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
