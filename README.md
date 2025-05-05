@@ -18,11 +18,11 @@ This repository contains a **collection of API tests** using Postman as part of 
 This collection includes **two public APIs** used for testing:
 
 ### 1. Reqres API
-- **Base URL:** 'https://reqres.in/'
+- **Base URL:** `https://reqres.in/`
 - **Used for:** basic **GET** and **POST** requests
 
 ### 2. DummyJSON API
-- **Base URL:** 'https://dummyjson.com/'
+- **Base URL:** `https://dummyjson.com/`
 - **Used for:** **data update and deletion** (POST,PUT, PATCH, DELETE (GET already used on Reqress) and test automation
 
 ---
@@ -30,16 +30,16 @@ This collection includes **two public APIs** used for testing:
 ## 🧪 Reqress API Tests
 
 ### 🔹 GET - List Users
-- **Endpoint** 'https://reqress.in/api/users?page=2'
+- **Endpoint** `https://reqress.in/api/users?page=2`
 - **Tests:**
   - Status is 200
   - Validate response contains user list
-  - Check user fields like 'email', 'first_name', etc.
+  - Check user fields like `email`, `first_name`, etc.
  
   ---
 
 ### 🔹 POST - Create User
-- **Endpoint:** 'https://reqress.in/api/users'
+- **Endpoint:** `https://reqress.in/api/users`
 - **Request body:**
 ```json
 {
@@ -49,14 +49,14 @@ This collection includes **two public APIs** used for testing:
 ```
    - **Test:**
    - Status is 201
-   - Response includes the same 'name' and 'job' sent in body
+   - Response includes the same `name` and `job` sent in body
 
  ---
 
 ## 🧪 DummyJSON API Tests
 
 ### 🔹POST - Create User
-- **Endpoint:** 'https://dummyjson.com/users/add
+- **Endpoint:** `https://dummyjson.com/users/add`
 - **Request Body:**
 ```json
 {
@@ -66,12 +66,12 @@ This collection includes **two public APIs** used for testing:
 ```
 - **Test:**
   - Status is 200
-  - Response includes the same 'firstname' and 'lastname'
+  - Response includes the same `firstname` and `lastname`
 
 ---
 
 ### 🔹 PUT - Update User
-- **Endpoint:** 'https://dummyjson.com/users/1
+- **Endpoint:** `https://dummyjson.com/users/1`
 - **Request Body:**
 ```json
 {
@@ -80,12 +80,12 @@ This collection includes **two public APIs** used for testing:
 }
 ```
 - **Test:** Status is 200
-- Validate update 'firstname' and 'lastname'
+- Validate update `firstname` and `lastname`
 
 ---
 
 ### 🔹 PATCH - Partial Update User
-- **Endpoint:** 'https://dummyjson.com/users/1'
+- **Endpoint:** `https://dummyjson.com/users/1'`
 - **Request Body:**
 ```json
 {
@@ -94,11 +94,12 @@ This collection includes **two public APIs** used for testing:
 ```
 - **Test:**
   - Status is 200
-  - Validate only 'lastname' is changed
+  - Validate only `lastname` is changed
+    
 ---
 
 ### 🔹 DELETE - Delete User
-- **Endpoint:** 'https://dummyjson.com/users/1
+- **Endpoint:** `https://dummyjson.com/users/1`
 - **Test:**
   - Status is 200
   - Response confirms deleted user data
@@ -108,13 +109,13 @@ This collection includes **two public APIs** used for testing:
 ## ▶️ How to Use This Collection
 
 1. **Import Collection**
-   Open Postman → Click 'Import' → Upload collection file.
+   Open Postman → Click `Import` → Upload collection file.
    
 3. **(Optional) Set Enviroment**
-   Create enviroment with variables like 'base_url'.
+   Create enviroment with variables like `base_url`.
    
 4. **Run Individual Request**
-   Select request → Click 'Send' → Observe the **Scripts** Tab.
+   Select request → Click `Send` → Observe the **Scripts** Tab.
    
 5. **Export Collection**
    File → Export → Save collection for sharing or uploading to GitHub.
