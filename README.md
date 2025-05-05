@@ -29,7 +29,7 @@ This collection includes **two public APIs** used for testing:
 
 ## 🧪 Reqress API Tests
 
-###🔹 GET - List Users
+### 🔹 GET - List Users
 - **Endpoint** 'https://reqress.in/api/users?page=2'
 - **Tests:**
   - Status is 200
@@ -38,7 +38,7 @@ This collection includes **two public APIs** used for testing:
  
   ---
 
-###🔹 POST - Create User
+### 🔹 POST - Create User
 - **Endpoint:** 'https://reqress.in/api/users'
 - **Request body:**
   '''json
@@ -54,7 +54,7 @@ This collection includes **two public APIs** used for testing:
 
 ## 🧪 DummyJSON API Tests
 
-###🔹POST - Create User
+### 🔹POST - Create User
 - **Endpoint:** 'https://dummyjson.com/users/add
 - **Request Body:**
 '''json
@@ -68,7 +68,7 @@ This collection includes **two public APIs** used for testing:
 
 ---
 
-###🔹 PUT - Update User
+### 🔹 PUT - Update User
 - **Endpoint:** 'https://dummyjson.com/users/1
 - **Request Body:**
 '''json
@@ -81,7 +81,7 @@ This collection includes **two public APIs** used for testing:
 
 ---
 
-###🔹 PATCH - Partial Update User
+### 🔹 PATCH - Partial Update User
 - **Endpoint:** 'https://dummyjson.com/users/1'
 - **Request Body:**
 '''json
@@ -93,7 +93,7 @@ This collection includes **two public APIs** used for testing:
   - Validate only 'lastname' is changed
 ---
 
-###🔹 DELETE - Delete User
+### 🔹 DELETE - Delete User
 - **Endpoint:** 'https://dummyjson.com/users/1
 - **Test:**
   - Status is 200
