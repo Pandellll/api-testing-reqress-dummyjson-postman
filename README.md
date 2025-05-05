@@ -44,7 +44,7 @@ This collection includes **two public APIs** used for testing:
 ```json
 {
   "name": "Pandellll",
-  "job": QAEngineer"
+  "job": "QAEngineer"
 }
 ```
    - **Test:**
