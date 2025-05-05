@@ -41,12 +41,12 @@ This collection includes **two public APIs** used for testing:
 ### 🔹 POST - Create User
 - **Endpoint:** 'https://reqress.in/api/users'
 - **Request body:**
-'''json
+```json
 {
   "name": "Pandellll",
   "job": QAEngineer"
 }
-'''
+```
    - **Test:**
    - Status is 201
    - Response includes the same 'name' and 'job' sent in body
@@ -58,11 +58,12 @@ This collection includes **two public APIs** used for testing:
 ### 🔹POST - Create User
 - **Endpoint:** 'https://dummyjson.com/users/add
 - **Request Body:**
-'''json
+```json
 {
   "firstname": "Pandelllll",
   "lastname": "QAEngineer"
 }
+```
 - **Test:**
   - Status is 200
   - Response includes the same 'firstname' and 'lastname'
@@ -72,11 +73,12 @@ This collection includes **two public APIs** used for testing:
 ### 🔹 PUT - Update User
 - **Endpoint:** 'https://dummyjson.com/users/1
 - **Request Body:**
-'''json
+```json
 {
   "firstname": "PandelllllUpadte",
   "lastname": "QAEngineerUpdated"
 }
+```
 - **Test:** Status is 200
 - Validate update 'firstname' and 'lastname'
 
@@ -85,10 +87,11 @@ This collection includes **two public APIs** used for testing:
 ### 🔹 PATCH - Partial Update User
 - **Endpoint:** 'https://dummyjson.com/users/1'
 - **Request Body:**
-'''json
+```json
 {
   "lastname": "QAEngineerPATCH"
 }
+```
 - **Test:**
   - Status is 200
   - Validate only 'lastname' is changed
