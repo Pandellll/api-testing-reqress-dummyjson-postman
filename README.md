@@ -41,12 +41,13 @@ This collection includes **two public APIs** used for testing:
 ### 🔹 POST - Create User
 - **Endpoint:** 'https://reqress.in/api/users'
 - **Request body:**
-  '''json
+'''json
 {
   "name": "Pandellll",
   "job": QAEngineer"
 }
-  - **Test:**
+'''
+   - **Test:**
    - Status is 201
    - Response includes the same 'name' and 'job' sent in body
 
