@@ -4,7 +4,7 @@ This repository contains a **collection of API tests** using Postman as part of 
 
 ---
 
-##🛠 Tools Used
+## 🛠 Tools Used
 
 - [Postman](https://www.postman.com/) - for creating adn executing request
 - [Reqres API](https://reqres.in) - for simple test endpoints (GET and POST only)
@@ -13,7 +13,7 @@ This repository contains a **collection of API tests** using Postman as part of 
 
 ---
 
-##📁 Collection Structure
+## 📁 Collection Structure
 
 This collection includes **two public APIs** used for testing:
 
